@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #d6d6d6;
+  height: 100vh;
+}
+
+button, input {
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculator {
+  height: 80vh;
+  width: 20vw;
+  min-width: 280px;
+  background-color: white;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px 35px;
+  justify-items: center;
+  height: 50%;
+}
+
+.buttons button {
+  font-size: 22px;
+  border-radius: 50%;
+  width: 50px;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+}
+
+.buttons button:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.buttons .purple {
+  background-color: #a570d6;
+  color: white;
+}
+
+.result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-size: 50px;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=main.css.map */

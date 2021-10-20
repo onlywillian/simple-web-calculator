@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora simples</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="result">0</div>
+        <div class="buttons">
+            <button class="purple">AC</button>
+            <button>+/-</button>
+            <button>%</button>
+            <button onclick="operatorUpdate('/')">÷</button>
+            <button onclick="numberAdd(7)">7</button>
+            <button onclick="numberAdd(8)">8</button>
+            <button onclick="numberAdd(9)">9</button>
+            <button onclick="operatorUpdate('*')">x</button>
+            <button onclick="numberAdd(4)">4</button>
+            <button onclick="numberAdd(5)">5</button>
+            <button onclick="numberAdd(6)">6</button>
+            <button onclick="operatorUpdate('+')">+</button>
+            <button onclick="numberAdd(1)">1</button>
+            <button onclick="numberAdd(2)">2</button>
+            <button onclick="numberAdd(3)">3</button>
+            <button onclick="operatorUpdate('-')">-</button>
+            <button onclick="numberAdd(0)">0</button>
+            <button>,</button>
+            <button> </button>
+            <button onclick="equals()" class="purple equal">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

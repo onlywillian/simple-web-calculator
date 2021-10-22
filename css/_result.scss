@@ -1,8 +1,9 @@
 .result {
     display: flex;
     height: 50%;
-    align-items: center;
-    justify-content: right;
+    align-items: flex-end;
+    justify-content: center;
     font-size: 50px;
     font-weight: bolder;
+    flex-direction: column;
 }

@@ -7,11 +7,15 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="result">0</div>
+        <div class="result">
+            <p>0</p>
+            <div class="mini">0</div>
+        </div>
+
         <div class="buttons">
-            <button class="purple">AC</button>
-            <button>+/-</button>
-            <button>%</button>
+            <button class="purple" onclick="clearAll()">AC</button>
+            <button onclick="switchSignal()">+/-</button>
+            <button onclick="operatorUpdate('%')">%</button>
             <button onclick="operatorUpdate('/')">÷</button>
             <button onclick="numberAdd(7)">7</button>
             <button onclick="numberAdd(8)">8</button>
